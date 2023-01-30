@@ -1,0 +1,88 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+header{
+    
+    width: 100%;
+    height: 100px;
+    border: 10px  gray;
+    background-color: antiquewhite;
+}
+h1{
+    position: absolute; 
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 20px;
+    
+}
+.top-bar {
+    padding: 0px;
+    font-size: 60px;
+    text-align: center;
+    
+     
+}
+.topnav a {
+    width: 10%;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    list-style-type: none;
+}
+.button{
+    display: block;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: none; 
+}
+.images-logo{
+  width: 200px;
+  height: 200px;
+  margin: -60px 1000px 100px ;
+  background: rgba(76, 100, 70, 0)
+ 
+}
+.images1{
+    
+    width: 100%;
+    height: 1070px;
+    object-fit: cover;
+   
+}
+   
+
+h2{
+   padding: 1000px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+h4{
+    padding: 50px 10px 10px 300px;
+    text-align: justify;
+    font-size: 30px;   
+     
+}
+p {
+    text-align: justify;
+    padding: 10px 100px 0px 300px;
+    font-size: 20px;
+}
+.about-p{
+    text-align: justify;
+    padding: 0px 10px 10px 300px;
+    font-size: 20px;
+   
+}
+.contact-p{
+    text-align: justify;
+    padding: 200px 10px 10px 300px;
+    font-size: 20px;
+}
