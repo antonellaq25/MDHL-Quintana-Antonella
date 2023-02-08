@@ -9,7 +9,7 @@ header{
     background-color: antiquewhite;
     position: relative;
 }
-h1{
+.title{
     position: absolute; 
     bottom: 0;
     background: rgb(0, 0, 0); 
@@ -21,7 +21,7 @@ h1{
 }
 .top-bar {
     padding: 0px;
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
     
 }
@@ -53,17 +53,16 @@ h1{
   bottom: 0px;
   right: 50px;
   
-  
 }
-.images1{
-    
-    width: 100%;
-    height: 1070px;
-    object-fit: cover;
-   
-}
-   
+.header-images{
+  display: flex;
+  width: 100%;
 
+}
+.image1{
+  flex-grow: 1 ;
+  width: 30%;
+}
 .section-info{
     display: flex;
     text-align: center;
@@ -122,10 +121,86 @@ li {
   .schedule-table-body{
     font-size: 20px;
   }
-  .schedule-table td, .schedule-table th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
+ 
   .schedule-table tr:nth-child(even){background-color: #f2f2f2;}
 
  .schedule-table tr:hover {background-color: #ddd;}
+
+.registration-body{
+    background-color: antiquewhite;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+  
+ 
+  
+ .registration-section{
+    text-align: center;
+    flex-grow: 3;
+ }
+  .registration-title{
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 20px;
+  }
+  .checkbox-form{
+    display: inline-flex;
+    color:black;
+    outline:grey;
+    text-align: center;
+    padding: 20px;
+  }
+  button {
+    background: transparent;
+    color: grey;
+    border: 2px solid grey;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 20px 75px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 15px 30px;
+    -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+      text-align: center;
+  }
+  
+  button:hover, button:focus {
+    background-color: white;
+    color: #333333;
+  }
+   .label-text {
+    color: black;
+    cursor: text;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    -moz-transform: translateY(-34px);
+    -ms-transform: translateY(-34px);
+    -webkit-transform: translateY(-34px);
+    transform: translateY(-34px);
+    transition: all 0.3s;
+    
+  }
+  label input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #4A4A4A;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 10px;
+    outline: 0;
+    text-align: center;
+    transition: all 0.3s;
+    width: 200px;
+   
+  }
+  label input:focus {
+    max-width: 100%;
+    width: 400px;
+  }
